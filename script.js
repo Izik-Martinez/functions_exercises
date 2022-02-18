@@ -1,9 +1,25 @@
-function isShortsWeather(temp){
+// Exercise #1
 
-if(temp >= 75){
+// function isShortsWeather(temp){
 
- return true;
+// if(temp >= 75){
 
-}
- return false;
+//  return true;
+
+// }
+//  return false;
+// }
+
+
+
+// Exercise #2
+
+function lastElement(array){
+
+    if(array.length === 0){
+
+        return null;
+    }
+return array[array.length - 1];
+
 }

@@ -14,12 +14,20 @@
 
 // Exercise #2
 
-function lastElement(array){
+// function lastElement(array){
 
-    if(array.length === 0){
+//     if(array.length === 0){
 
-        return null;
-    }
-return array[array.length - 1];
+//         return null;
+//     }
+// return array[array.length - 1];
+
+// }
+
+// Exercise #3
+
+function capitalize(str){
+
+return str.charAt(0).toUpperCase() + str.slice(1);
 
 }

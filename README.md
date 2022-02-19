@@ -8,3 +8,6 @@ Returns 'false' if anything else. NOTE didn't have to use "else" because the fir
 
 Exercise #2
 Created an if statement within the function so a length of 0 would return "null" instead of undefined. Once again, I didn't need to use "else" because 'return' stops the rest of function from executing anyway.
+
+Exercise #3
+The goal of this funcion is to return a new string with the first character capitalized.

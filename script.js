@@ -26,8 +26,19 @@
 
 // Exercise #3
 
-function capitalize(str){
+// function capitalize(str){
 
-return str.charAt(0).toUpperCase() + str.slice(1);
+// return str.charAt(0).toUpperCase() + str.slice(1);
 
+// }
+
+// Exercise #4
+
+function sumArray(anArray){
+    let total = 0;
+    for(let i = 0; i < anArray.length; i++){
+        total += anArray[i];
+    }
+    return total;
 }
+
